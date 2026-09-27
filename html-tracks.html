@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GameLearn — обзор сервисов для обучения CSS, JavaScript и HTML в игровой форме.">
+  <title>HTML-треки — GameLearn</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/mustard.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <!-- Шапка сайта -->
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a href="index.html" class="site-header__logo">
+          <span class="site-header__logo-icon">&#127918;</span> GameLearn
+        </a>
+        <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+        </button>
+        <nav class="main-nav" id="mainNav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a href="index.html" class="main-nav__link">Главная</a></li>
+            <li class="main-nav__item"><a href="services.html" class="main-nav__link">Сервисы</a></li>
+            <li class="main-nav__item"><a href="css-tracks.html" class="main-nav__link">CSS</a></li>
+            <li class="main-nav__item"><a href="js-tracks.html" class="main-nav__link">JS</a></li>
+            <li class="main-nav__item"><a href="html-tracks.html" class="main-nav__link main-nav__link--active">HTML</a></li>
+            <li class="main-nav__item"><a href="compare.html" class="main-nav__link">Сравнение</a></li>
+            <li class="main-nav__item"><a href="examples.html" class="main-nav__link">Примеры</a></li>
+            <li class="main-nav__item"><a href="faq.html" class="main-nav__link">FAQ</a></li>
+            <li class="main-nav__item"><a href="contact.html" class="main-nav__link">Контакты</a></li>
+            <li class="main-nav__item"><a href="about.html" class="main-nav__link">О проекте</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+  <div class="layout">
+    <main class="main-content">
+      
+<ul class="breadcrumbs">
+  <li><a href="index.html">Главная</a></li>
+  <li>HTML-треки</li>
+</ul>
+<h1 class="page-title">HTML-треки</h1>
+<p class="page-subtitle">Платформы с игровыми элементами для изучения HTML5: семантика, формы, мультимедиа, доступность.</p>
+
+<section class="section">
+  <h2 class="section__title">Платформы для изучения HTML</h2>
+  <p class="section__text">В отличие от CSS и JS, чисто игровых сервисов для HTML меньше. Однако крупные платформы используют геймификацию (бейджи, рейтинги, прогресс) для мотивации.</p>
+  <div class="card-grid">
+    <article class="card">
+      <img src="img/services/codecademy.svg" alt="Codecademy" title="Codecademy" class="card__image" loading="lazy">
+      <div class="card__body">
+        <h3 class="card__title">Codecademy: HTML</h3>
+        <p class="card__text">Интерактивный курс «Learn HTML» — бесплатно. Пишете код в браузере, получаете мгновенную обратную связь, зарабатываете бейджи.</p>
+        <div class="card__tags"><span class="card__tag card__tag--html">HTML</span><span class="card__tag">Freemium</span></div>
+        <h4>Что изучаете:</h4>
+        <ul style="font-size:0.9rem;padding-left:20px;">
+          <li>Структура HTML-документа</li>
+          <li>Семантические теги (header, main, nav, article)</li>
+          <li>Формы и input-элементы</li>
+          <li>Мультимедиа: img, video, audio</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="img/services/freecodecamp.svg" alt="freeCodeCamp" title="freeCodeCamp" class="card__image" loading="lazy">
+      <div class="card__body">
+        <h3 class="card__title">freeCodeCamp: HTML</h3>
+        <p class="card__text">Модуль «Responsive Web Design» — 300 часов бесплатно. Изучаете HTML и CSS через задания с проверкой, получаете сертификат.</p>
+        <div class="card__tags"><span class="card__tag card__tag--html">HTML</span><span class="card__tag card__tag--css">CSS</span><span class="card__tag">Бесплатно</span></div>
+        <h4>Что изучаете:</h4>
+        <ul style="font-size:0.9rem;padding-left:20px;">
+          <li>HTML-структура и семантика</li>
+          <li>Доступность (accessibility)</li>
+          <li>Адаптивная вёрстка</li>
+          <li>Практические проекты</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section__title">Ключевые темы HTML5 для изучения</h2>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Тема</th>
+        <th>Описание</th>
+        <th>Где практиковать</th>
+        <th>Сложность</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Структура документа</td>
+        <td>DOCTYPE, html, head, body, meta-теги</td>
+        <td>Codecademy, freeCodeCamp</td>
+        <td><span class="data-table__badge badge--free">Низкая</span></td>
+      </tr>
+      <tr>
+        <td>Семантические теги</td>
+        <td>header, nav, main, article, section, aside, footer</td>
+        <td>freeCodeCamp</td>
+        <td><span class="data-table__badge badge--free">Низкая</span></td>
+      </tr>
+      <tr>
+        <td>Формы</td>
+        <td>form, input, select, textarea, button, валидация</td>
+        <td>Codecademy, freeCodeCamp</td>
+        <td><span class="data-table__badge badge--freemium">Средняя</span></td>
+      </tr>
+      <tr>
+        <td>Мультимедиа</td>
+        <td>img, video, audio, picture, source</td>
+        <td>freeCodeCamp</td>
+        <td><span class="data-table__badge badge--freemium">Средняя</span></td>
+      </tr>
+      <tr>
+        <td>Доступность (a11y)</td>
+        <td>ARIA-атрибуты, alt, role, tabindex</td>
+        <td>freeCodeCamp</td>
+        <td><span class="data-table__badge badge--paid">Высокая</span></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+    </main>
+    <!-- Сайдбар -->
+      <aside class="sidebar">
+        <div class="sidebar__section">
+          <h3 class="sidebar__title">Навигация</h3>
+          <ul class="sidebar__nav">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="services.html">Все сервисы</a></li>
+            <li><a href="css-tracks.html">CSS-треки</a></li>
+            <li><a href="js-tracks.html">JS-треки</a></li>
+            <li><a href="html-tracks.html">HTML-треки</a></li>
+            <li><a href="compare.html">Сравнение</a></li>
+            <li><a href="examples.html">Примеры игр</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__section">
+          <h3 class="sidebar__title">Подписка</h3>
+          <p class="sidebar__text" style="font-size:0.9rem;color:#6b6b6b;margin-bottom:12px;">Получайте обзоры новых игровых платформ для обучения веб-разработке.</p>
+          <form class="sidebar__subscribe">
+            <input type="email" placeholder="Ваш email" aria-label="Email для подписки" required>
+            <button type="submit" class="form__btn" style="margin-top:8px;width:100%;padding:8px;">Подписаться</button>
+            <p class="sidebar__subscribe-msg" style="font-size:0.85rem;margin-top:8px;"></p>
+          </form>
+        </div>
+        <div class="sidebar__banner">
+          <h3>Начни учиться бесплатно!</h3>
+          <p>Большинство рассмотренных сервисов имеют бесплатные тарифы.</p>
+          <a href="services.html" class="btn-banner">Смотреть сервисы</a>
+        </div>
+      </aside>
+  </div>
+
+  <!-- Подвал сайта -->
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div class="site-footer__col">
+          <h4 class="site-footer__title">GameLearn</h4>
+          <p class="site-footer__text">Обзор сервисов для изучения CSS, JS и HTML в игровой форме. Учись программировать, играя!</p>
+        </div>
+        <div class="site-footer__col">
+          <h4 class="site-footer__title">Разделы</h4>
+          <ul class="site-footer__links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="services.html">Сервисы</a></li>
+            <li><a href="compare.html">Сравнение</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="site-footer__col">
+          <h4 class="site-footer__title">Контакты</h4>
+          <ul class="site-footer__links">
+            <li><a href="contact.html">Форма обратной связи</a></li>
+            <li><a href="about.html">О проекте</a></li>
+            <li>Email: info@gamelearn.ru</li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p>&copy; 2026 GameLearn. Учебный проект. Все права на контент принадлежат соответствующим сервисам.</p>
+      </div>
+    </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GameLearn — обзор сервисов для обучения CSS, JavaScript и HTML в игровой форме.">
+  <title>Примеры мини-игр — GameLearn</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/mustard.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <!-- Шапка сайта -->
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a href="index.html" class="site-header__logo">
+          <span class="site-header__logo-icon">&#127918;</span> GameLearn
+        </a>
+        <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+        </button>
+        <nav class="main-nav" id="mainNav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a href="index.html" class="main-nav__link">Главная</a></li>
+            <li class="main-nav__item"><a href="services.html" class="main-nav__link">Сервисы</a></li>
+            <li class="main-nav__item"><a href="css-tracks.html" class="main-nav__link">CSS</a></li>
+            <li class="main-nav__item"><a href="js-tracks.html" class="main-nav__link">JS</a></li>
+            <li class="main-nav__item"><a href="html-tracks.html" class="main-nav__link">HTML</a></li>
+            <li class="main-nav__item"><a href="compare.html" class="main-nav__link">Сравнение</a></li>
+            <li class="main-nav__item"><a href="examples.html" class="main-nav__link main-nav__link--active">Примеры</a></li>
+            <li class="main-nav__item"><a href="faq.html" class="main-nav__link">FAQ</a></li>
+            <li class="main-nav__item"><a href="contact.html" class="main-nav__link">Контакты</a></li>
+            <li class="main-nav__item"><a href="about.html" class="main-nav__link">О проекте</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+  <div class="layout">
+    <main class="main-content">
+      
+<ul class="breadcrumbs">
+  <li><a href="index.html">Главная</a></li>
+  <li>Примеры мини-игр</li>
+</ul>
+<h1 class="page-title">Примеры мини-игр</h1>
+<p class="page-subtitle">Скриншоты и описание игровых механик платформ для обучения веб-разработке.</p>
+
+<section class="section">
+  <h2 class="section__title">CSS Diner — выбор селекторов</h2>
+  <figure>
+    <img src="img/screenshots/screenshot1.svg" alt="CSS Diner — скриншот игры" title="CSS Diner: выбор CSS-селектора" style="width:100%;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.12);">
+    <figcaption style="font-size:0.85rem;color:#6b6b6b;margin-top:8px;text-align:center;">CSS Diner: на каждом уровне нужно выбрать селектор, выделяющий нужные элементы</figcaption>
+  </figure>
+  <h3 style="margin-top:24px;">Как это работает</h3>
+  <p class="section__text">На «столе» разложены тарелки, яблоки и другие предметы. Вам даётся задание: например, «выбрать все тарелки на столе». Вы пишете CSS-селектор, и если он правильный — нужные элементы подсвечиваются, и вы переходите на следующий уровень. Сложность растёт: от простых `div` до `nth-child(3n+1)`.</p>
+  <h3>Чему учит</h3>
+  <ul style="padding-left:20px;line-height:1.8;">
+    <li>Селекторы по тегу, классу, ID, атрибуту</li>
+    <li>Псевдоклассы: `:first-child`, `:nth-of-type`, `:not()`</li>
+    <li>Комбинаторы: потомок ` `, дочерний `>`, сосед `+`, общий сосед `~`</li>
+    <li>Универсальный селектор `*`</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2 class="section__title">Flexbox Froggy — управление лягушкой</h2>
+  <figure>
+    <img src="img/screenshots/screenshot2.svg" alt="Flexbox Froggy — скриншот игры" title="Flexbox Froggy: управление лягушкой через Flexbox" style="width:100%;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.12);">
+    <figcaption style="font-size:0.85rem;color:#6b6b6b;margin-top:8px;text-align:center;">Flexbox Froggy: переместите лягушку на кувшинку с помощью justify-content</figcaption>
+  </figure>
+  <h3 style="margin-top:24px;">Как это работает</h3>
+  <p class="section__text">Лягушка сидит на элементе Flex-контейнера. Вы пишете CSS-свойство (например, `justify-content: flex-end`), и лягушка перемещается. Цель — посадить её на кувшинку. Уровни усложняются: появляются несколько лягушек, разное направление осей, wrap.</p>
+  <h3>Чему учит</h3>
+  <ul style="padding-left:20px;line-height:1.8;">
+    <li>`justify-content`: flex-start, center, space-between, space-around</li>
+    <li>`align-items`: flex-start, center, stretch</li>
+    <li>`flex-direction`: row, column, row-reverse</li>
+    <li>`flex-wrap`, `align-content`, `order`</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2 class="section__title">CodeCombat — RPG-приключение</h2>
+  <figure>
+    <img src="img/screenshots/screenshot3.svg" alt="CodeCombat — скриншот игры" title="CodeCombat: RPG с управлением через код" style="width:100%;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.12);">
+    <figcaption style="font-size:0.85rem;color:#6b6b6b;margin-top:8px;text-align:center;">CodeCombat: герой движется по подземелью, управляемый вашим JavaScript-кодом</figcaption>
+  </figure>
+  <h3 style="margin-top:24px;">Как это работает</h3>
+  <p class="section__text">Вы пишете код для героя — например, `hero.moveRight()` или `while (true) { hero.attack(enemy) }`. Герой выполняет ваш код в реальном времени: ходит по карте, сражается с врагами, собирает сокровища. Чем сложнее уровни, тем сложнее код: появляются функции, переменные, массивы врагов.</p>
+  <h3>Чему учит</h3>
+  <ul style="padding-left:20px;line-height:1.8;">
+    <li>Переменные и присваивание</li>
+    <li>Циклы `while` и `for`</li>
+    <li>Условия `if/else`</li>
+    <li>Функции и параметры</li>
+    <li>Работа с массивами и объектами</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2 class="section__title">Видео-демонстрация</h2>
+  <p class="section__text">Видео-обзор трёх ключевых платформ:</p>
+  <div class="video-block">
+    <div class="video-responsive">
+      <iframe src="https://rutube.ru/play/embed/00000000000000000000000000000000" title="Видео-демонстрация игровых платформ" allow="autoplay" allowfullscreen></iframe>
+    </div>
+  </div>
+  <p class="text-muted" style="font-size:0.85rem;">Видео встроено через iframe (RuTube). В реальном проекте здесь будет актуальный embed-код.</p>
+</section>
+
+    </main>
+    <!-- Сайдбар -->
+      <aside class="sidebar">
+        <div class="sidebar__section">
+          <h3 class="sidebar__title">Навигация</h3>
+          <ul class="sidebar__nav">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="services.html">Все сервисы</a></li>
+            <li><a href="css-tracks.html">CSS-треки</a></li>
+            <li><a href="js-tracks.html">JS-треки</a></li>
+            <li><a href="html-tracks.html">HTML-треки</a></li>
+            <li><a href="compare.html">Сравнение</a></li>
+            <li><a href="examples.html">Примеры игр</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__section">
+          <h3 class="sidebar__title">Подписка</h3>
+          <p class="sidebar__text" style="font-size:0.9rem;color:#6b6b6b;margin-bottom:12px;">Получайте обзоры новых игровых платформ для обучения веб-разработке.</p>
+          <form class="sidebar__subscribe">
+            <input type="email" placeholder="Ваш email" aria-label="Email для подписки" required>
+            <button type="submit" class="form__btn" style="margin-top:8px;width:100%;padding:8px;">Подписаться</button>
+            <p class="sidebar__subscribe-msg" style="font-size:0.85rem;margin-top:8px;"></p>
+          </form>
+        </div>
+        <div class="sidebar__banner">
+          <h3>Начни учиться бесплатно!</h3>
+          <p>Большинство рассмотренных сервисов имеют бесплатные тарифы.</p>
+          <a href="services.html" class="btn-banner">Смотреть сервисы</a>
+        </div>
+      </aside>
+  </div>
+
+  <!-- Подвал сайта -->
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div class="site-footer__col">
+          <h4 class="site-footer__title">GameLearn</h4>
+          <p class="site-footer__text">Обзор сервисов для изучения CSS, JS и HTML в игровой форме. Учись программировать, играя!</p>
+        </div>
+        <div class="site-footer__col">
+          <h4 class="site-footer__title">Разделы</h4>
+          <ul class="site-footer__links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="services.html">Сервисы</a></li>
+            <li><a href="compare.html">Сравнение</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="site-footer__col">
+          <h4 class="site-footer__title">Контакты</h4>
+          <ul class="site-footer__links">
+            <li><a href="contact.html">Форма обратной связи</a></li>
+            <li><a href="about.html">О проекте</a></li>
+            <li>Email: info@gamelearn.ru</li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p>&copy; 2026 GameLearn. Учебный проект. Все права на контент принадлежат соответствующим сервисам.</p>
+      </div>
+    </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GameLearn — обзор сервисов для обучения CSS, JavaScript и HTML в игровой форме.">
+  <title>Все сервисы — GameLearn</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/mustard.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <!-- Шапка сайта -->
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a href="index.html" class="site-header__logo">
+          <span class="site-header__logo-icon">&#127918;</span> GameLearn
+        </a>
+        <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+        </button>
+        <nav class="main-nav" id="mainNav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a href="index.html" class="main-nav__link">Главная</a></li>
+            <li class="main-nav__item"><a href="services.html" class="main-nav__link main-nav__link--active">Сервисы</a></li>
+            <li class="main-nav__item"><a href="css-tracks.html" class="main-nav__link">CSS</a></li>
+            <li class="main-nav__item"><a href="js-tracks.html" class="main-nav__link">JS</a></li>
+            <li class="main-nav__item"><a href="html-tracks.html" class="main-nav__link">HTML</a></li>
+            <li class="main-nav__item"><a href="compare.html" class="main-nav__link">Сравнение</a></li>
+            <li class="main-nav__item"><a href="examples.html" class="main-nav__link">Примеры</a></li>
+            <li class="main-nav__item"><a href="faq.html" class="main-nav__link">FAQ</a></li>
+            <li class="main-nav__item"><a href="contact.html" class="main-nav__link">Контакты</a></li>
+            <li class="main-nav__item"><a href="about.html" class="main-nav__link">О проекте</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+  <div class="layout">
+    <main class="main-content">
+      
+<ul class="breadcrumbs">
+  <li><a href="index.html">Главная</a></li>
+  <li>Сервисы</li>
+</ul>
+<h1 class="page-title">Все сервисы</h1>
+<p class="page-subtitle">Полный список игровых платформ для изучения веб-разработок. Используйте фильтры в сайдбаре для сортировки.</p>
+
+<div class="card-grid">
+  <article class="card card--service" data-category="css" data-price="free">
+    <img src="img/services/css-diner.svg"
+      srcset="img/services/css-diner.svg 400w, img/services/css-diner.svg 200w"
+      sizes="(max-width: 768px) 100vw, (max-width: 992px) 50vw, 33vw"
+      alt="CSS Diner" title="CSS Diner"
+      class="card__image" loading="lazy">
+    <div class="card__body">
+      <h3 class="card__title">CSS Diner</h3>
+      <p class="card__text">Игра для изучения CSS-селекторов. 32 уровня: от базовых селекторов по тегу до псевдоклассов и комбинаторов. Подходит для новичков.</p>
+      <div class="card__tags"><span class="card__tag card__tag--css">CSS</span><span class="card__tag">Бесплатно</span></div>
+      <a href="https://flukeout.github.io" class="card__link">Открыть &rarr;</a>
+    </div>
+  </article>
+
+  <article class="card card--service" data-category="css" data-price="free">
+    <img src="img/services/flexbox-froggy.svg" alt="Flexbox Froggy" title="Flexbox Froggy" class="card__image" loading="lazy">
+    <div class="card__body">
+      <h3 class="card__title">Flexbox Froggy</h3>
+      <p class="card__text">24 уровня изучения Flexbox. Перемещайте лягушку на кувшинку с помощью justify-content, align-items, flex-direction и других свойств.</p>
+      <div class="card__tags"><span class="card__tag card__tag--css">CSS</span><span class="card__tag">Бесплатно</span></div>
+      <a href="https://flexboxfroggy.com" class="card__link">Открыть &rarr;</a>
+    </div>
+  </article>
+
+  <article class="card card--service" data-category="css" data-price="free">
+    <img src="img/services/grid-garden.svg" alt="Grid Garden" title="Grid Garden" class="card__image" loading="lazy">
+    <div class="card__body">
+      <h3 class="card__title">Grid Garden</h3>
+      <p class="card__text">28 уровней для освоения CSS Grid Layout. Поливайте морковку, используя grid-column-start, grid-area и другие grid-свойства.</p>
+      <div class="card__tags"><span class="card__tag card__tag--css">CSS</span><span class="card__tag">Бесплатно</span></div>
+      <a href="https://cssgridgarden.com" class="card__link">Открыть &rarr;</a>
+    </div>
+  </article>
+
+  <article class="card card--service" data-category="css" data-price="free">
+    <img src="img/services/css-battle.svg" alt="CSS Battle" title="CSS Battle" class="card__image" loading="lazy">
+    <div class="card__body">
+      <h3 class="card__title">CSS Battle</h3>
+      <p class="card__text">Соревновательная платформа: воссоздайте заданный дизайн минимальным количеством CSS-кода. Таблица лидеров, ежедневные задачи.</p>
+      <div class="card__tags"><span class="card__tag card__tag--css">CSS</span><span class="card__tag">Freemium</span></div>
+      <a href="https://cssbattle.dev" class="card__link">Открыть &rarr;</a>
+    </div>
+  </article>
+
+  <article class="card card--service" data-category="js" data-price="freemium">
+    <img src="img/services/codewars.svg" alt="Codewars" title="Codewars" class="card__image" loading="lazy">
+    <div class="card__body">
+      <h3 class="card__title">Codewars</h3>
+      <p class="card__text">Тысячи задач («кат») по JavaScript и другим языкам. Система рангов, сообщество, возможность смотреть чужие решения после сдачи.</p>
+      <div class="card__tags"><span class="card__tag card__tag--js">JS</span><span class="card__tag">Freemium</span></div>
+      <a href="https://codewars.com" class="card__link">Открыть &rarr;</a>
+    </div>
+  </article>
+
+  <article class="card card--service" data-category="js" data-price="freemium">
+    <img src="img/services/codecombat.svg" alt="CodeCombat" title="CodeCombat" class="card__image" loading="lazy">
+    <div class="card__body">
+      <h3 class="card__title">CodeCombat</h3>
+      <p class="card__text">RPG-игра, где вы управляете героем с помощью JavaScript-кода. Проходите подземелья, собирайте предметы, побеждайте врагов.</p>
+      <div class="card__tags"><span class="card__tag card__tag--js">JS</span><span class="card__tag">Freemium</span></div>
+      <a href="https://codecombat.com" class="card__link">Открыть &rarr;</a>
+    </div>
+  </article>
+
+  <article class="card card--service" data-category="js" data-price="freemium">
+    <img src="img/services/checkio.svg" alt="CheckiO" title="CheckiO" class="card__image" loading="lazy">
+    <div class="card__body">
+      <h3 class="card__title">CheckiO</h3>
+      <p class="card__text">Островные приключения с задачами по программированию. Решаете задачи, открываете новые острова, читаете решения других игроков.</p>
+      <div class="card__tags"><span class="card__tag card__tag--js">JS</span><span class="card__tag">Freemium</span></div>
+      <a href="https://checkio.org" class="card__link">Открыть &rarr;</a>
+    </div>
+  </article>
+
+  <article class="card card--service" data-category="js" data-price="free">
+    <img src="img/services/jsrobot.svg" alt="JSRobot" title="JSRobot" class="card__image" loading="lazy">
+    <div class="card__body">
+      <h3 class="card__title">JSRobot</h3>
+      <p class="card__text">Управляйте роботом через JavaScript-код. Изучаете циклы, условия, функции, перемещая робота по уровню и собирая ачивки.</p>
+      <div class="card__tags"><span class="card__tag card__tag--js">JS</span><span class="card__tag">Бесплатно</span></div>
+    </div>
+  </article>
+
+  <article class="card card--service" data-category="html css js" data-price="freemium">
+    <img src="img/services/codecademy.svg" alt="Codecademy" title="Codecademy" class="card__image" loading="lazy">
+    <div class="card__body">
+      <h3 class="card__title">Codecademy</h3>
+      <p class="card__text">Интерактивные курсы по HTML, CSS, JavaScript с встроенным редактором. Система бейджей, проектов и рейтинга. Часть курсов — бесплатно.</p>
+      <div class="card__tags"><span class="card__tag card__tag--html">HTML</span><span class="card__tag card__tag--css">CSS</span><span class="card__tag card__tag--js">JS</span><span class="card__tag">Freemium</span></div>
+    </div>
+  </article>
+
+  <article class="card card--service" data-category="html css js" data-price="free">
+    <img src="img/services/freecodecamp.svg" alt="freeCodeCamp" title="freeCodeCamp" class="card__image" loading="lazy">
+    <div class="card__body">
+      <h3 class="card__title">freeCodeCamp</h3>
+      <p class="card__text">Бесплатные курсы и сертификация по HTML, CSS, JS и React. 1800+ часов интерактивных заданий, проекты, бейджи, форум сообщества.</p>
+      <div class="card__tags"><span class="card__tag card__tag--html">HTML</span><span class="card__tag card__tag--css">CSS</span><span class="card__tag card__tag--js">JS</span><span class="card__tag">Бесплатно</span></div>
+    </div>
+  </article>
+</div>
+
+    </main>
+    
+<aside class="sidebar">
+  <div class="sidebar__section">
+    <h3 class="sidebar__title">Фильтры</h3>
+    <form class="sidebar__filter-form">
+      <div class="sidebar__filter">
+        <label for="filterCategory">Категория</label>
+        <select id="filterCategory">
+          <option value="all">Все</option>
+          <option value="css">CSS</option>
+          <option value="js">JavaScript</option>
+          <option value="html">HTML</option>
+        </select>
+      </div>
+      <div class="sidebar__filter">
+        <label for="filterPrice">Цена</label>
+        <select id="filterPrice">
+          <option value="all">Любая</option>
+          <option value="free">Бесплатно</option>
+          <option value="freemium">Freemium</option>
+          <option value="paid">Платно</option>
+        </select>
+      </div>
+      <div class="sidebar__filter">
+        <label for="filterSearch">Поиск по названию</label>
+        <input type="text" id="filterSearch" placeholder="Например, CSS Diner">
+      </div>
+      <button type="submit" class="form__btn" style="width:100%;padding:10px;">Применить</button>
+    </form>
+  </div>
+  <div class="sidebar__section">
+    <h3 class="sidebar__title">Подсказка</h3>
+    <p style="font-size:0.9rem;color:#6b6b6b;">Используйте фильтры, чтобы найти сервис под вашу технологию и бюджет. Большинство игр доступны бесплатно прямо в браузере.</p>
+  </div>
+  <div class="sidebar__banner">
+    <h3>Не знаете, с чего начать?</h3>
+    <p>Начните с CSS Diner и Flexbox Froggy — это просто и бесплатно!</p>
+    <a href="css-tracks.html" class="btn-banner">CSS-треки</a>
+  </div>
+</aside>
+
+  </div>
+
+  <!-- Подвал сайта -->
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div class="site-footer__col">
+          <h4 class="site-footer__title">GameLearn</h4>
+          <p class="site-footer__text">Обзор сервисов для изучения CSS, JS и HTML в игровой форме. Учись программировать, играя!</p>
+        </div>
+        <div class="site-footer__col">
+          <h4 class="site-footer__title">Разделы</h4>
+          <ul class="site-footer__links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="services.html">Сервисы</a></li>
+            <li><a href="compare.html">Сравнение</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="site-footer__col">
+          <h4 class="site-footer__title">Контакты</h4>
+          <ul class="site-footer__links">
+            <li><a href="contact.html">Форма обратной связи</a></li>
+            <li><a href="about.html">О проекте</a></li>
+            <li>Email: info@gamelearn.ru</li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p>&copy; 2026 GameLearn. Учебный проект. Все права на контент принадлежат соответствующим сервисам.</p>
+      </div>
+    </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
