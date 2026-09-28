@@ -6,6 +6,6 @@
     </linearGradient>
   </defs>
   <rect width="400" height="240" fill="url(#g)"/>
-  <text x="200" y="110" font-size="64" text-anchor="middle" fill="#fff" opacity="0.9">JS</text>
+  <text x="200" y="110" font-size="64" text-anchor="middle" fill="#fff" opacity="0.9">HTML</text>
   <text x="200" y="170" font-size="22" text-anchor="middle" fill="#fff" font-family="sans-serif" font-weight="bold">Codecademy</text>
 </svg>
