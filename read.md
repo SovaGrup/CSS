@@ -1,8 +1,8 @@
 # Файл для сдачи проекта
 
 ## Студент
-- **ФИО:** [Ваши ФИО]
-- **Группа:** [Номер группы]
+- **ФИО:** [Звягин Антдрей сергеевич]
+- **Группа:** [335]
 
 ## Тема проекта
 Обучение CSS, JS, HTML в игровой форме (обзор сервисов)
@@ -11,7 +11,7 @@
 Mustard UI (mustard-ui.com)
 
 ## Ссылка на работающий сайт (GitHub Pages)
-https://your-github-username.github.io/gamelearn/
+https://sovagrup.github.io/CSS/
 
 ## Ссылка на репозиторий GitHub
-https://github.com/your-github-username/gamelearn
+https://github.com/SovaGrup/CSS.git
