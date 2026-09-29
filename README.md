@@ -1,6 +1,6 @@
 # GameLearn — Обучение CSS, JS, HTML в игровой форме
 
-[Live Demo](https://your-github-username.github.io/gamelearn/) | [Репозиторий](https://github.com/your-github-username/gamelearn)
+[Live Demo]([https://your-github-username.github.io/gamelearn/](https://sovagrup.github.io/CSS/)) | [Репозиторий]([https://github.com/your-github-username/gamelearn](https://github.com/SovaGrup/CSS.git))
 
 ## Описание
 
@@ -23,10 +23,8 @@
 - `js-tracks.html` — JS-треки
 - `html-tracks.html` — HTML-треки
 - `compare.html` — Сравнение сервисов (таблицы)
-- `examples.html` — Примеры мини-игр (скриншоты, видео)
 - `faq.html` — Частые вопросы (аккордеон)
 - `contact.html` — Контакты (форма обратной связи)
-- `about.html` — О проекте
 - `css/style.css` — Кастомные стили
 - `js/main.js` — JavaScript
 - `img/` — SVG-изображения
@@ -40,13 +38,12 @@ Mobile-First подход с 3 контрольными точками:
 
 ## Запуск
 
-1. Клонируйте репозиторий:
+1. Перейдите по ссылке на GitHub Pages:
    ```bash
-   git clone https://github.com/your-github-username/gamelearn.git
+   [git clone https://github.com/your-github-username/gamelearn.git](https://sovagrup.github.io/CSS/)
    ```
 2. Откройте `index.html` в браузере.
 
-Или просто перейдите по ссылке на GitHub Pages (указана вверху этого файла).
 
 ## Кроссбраузерность
 
