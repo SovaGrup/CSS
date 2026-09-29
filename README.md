@@ -1,6 +1,6 @@
 # GameLearn — Обучение CSS, JS, HTML в игровой форме
 
-[Live Demo]([https://your-github-username.github.io/gamelearn/](https://sovagrup.github.io/CSS/)) | [Репозиторий]([https://github.com/your-github-username/gamelearn](https://github.com/SovaGrup/CSS.git))
+[Live Demo]([https://sovagrup.github.io/CSS/]) | [Репозиторий]([https://github.com/SovaGrup/CSS.git])
 
 ## Описание
 
@@ -40,7 +40,7 @@ Mobile-First подход с 3 контрольными точками:
 
 1. Перейдите по ссылке на GitHub Pages:
    ```bash
-   [git clone https://github.com/your-github-username/gamelearn.git](https://sovagrup.github.io/CSS/)
+   [https://sovagrup.github.io/CSS/]
    ```
 2. Откройте `index.html` в браузере.
 
